@@ -1,5 +1,5 @@
-const PHONE_NUMBER = "0526481838";
-const WHATSAPP_NUMBER = "972526481838";
+const PHONE_NUMBER = "0524218501";
+const WHATSAPP_NUMBER = "972524218501";
 
 const defaultMessage =
   "היי מתניה, הגעתי אליך דרך האתר";
