@@ -2,7 +2,7 @@ const PHONE_NUMBER = "0526481838";
 const WHATSAPP_NUMBER = "972526481838";
 
 const defaultMessage =
-  "היי נתנאל, הגעתי אליך דרך האתר";
+  "היי מתניה, הגעתי אליך דרך האתר";
 
 function buildWhatsAppUrl(message = defaultMessage) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -53,7 +53,7 @@ function handleLeadForm() {
     const secondLine = detailsRaw ? detailsRaw : `יש לי ${problem}`;
 
     const message = [
-      `היי נתנאל, זה ${getFieldValue(form, "name")}`,
+      `היי מתניה, זה ${getFieldValue(form, "name")}`,
       secondLine,
       `אני מ${getFieldValue(form, "area")}`,
     ].join("\n");
